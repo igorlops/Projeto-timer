@@ -29,11 +29,13 @@
         }
         if (el.classList.contains('play')){
             relogio.classList.remove('pausado');
+            relogio.classList.add('playContinue')
             clearInterval(timer);
             iniciaRelogio();
         }
         if (el.classList.contains('pause')){
             clearInterval(timer);
+            relogio.classList.remove('playContinue')
             relogio.classList.add('pausado');
         }
     });

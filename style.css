@@ -19,7 +19,7 @@
             max-width: 500px;
             height: auto;
             padding: 5%;
-            margin: 250px auto;
+            margin: 200px auto 600px auto;
             border-radius: 20px;
             font-weight: bold;
             text-align: center;
@@ -34,11 +34,15 @@
            margin-top: 20px;
            background-color: white;
         }
+        .botoes{
+            display: flex;
+            justify-content: start;
+        }
         .button {
-            width: 100px;
+            width: 130px;
             margin-top: 50px;
             border-radius: 20px;
-            padding:5px;
+            padding:7px;
             font-family:'open_sanslight';
             font-size:1.2em;
             /* padding:.5rem 3rem; */
@@ -59,4 +63,7 @@
           }
         .pausado{
             color: red;
+        }
+        .playContinue{
+            color: green;
         }
